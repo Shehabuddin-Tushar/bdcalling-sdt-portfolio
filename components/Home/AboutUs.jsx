@@ -7,14 +7,15 @@ const teamMembers = [
   },
   {
     id: 2,
-    name: "siku",
+    name: "shiku",
     image: "https://i.postimg.cc/dt4cQcTn/siku.jpg",
     position: "Team leader",
   },
   {
     id: 3,
     name: "Md.Shehabuddin Tushar",
-    image: "https://i.postimg.cc/zvNm2tZL/imagetushar.png",
+    image:
+      "https://i.postimg.cc/hGxC8W4R/IMG-20230317-235932-340-2-removebg-preview-1.jpg",
     position: "Fullstack-Developer",
   },
   {

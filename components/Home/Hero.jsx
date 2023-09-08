@@ -75,7 +75,7 @@ function Hero() {
   };
 
   return (
-    <div className="z-100 custom-gradient ">
+    <div className="z-100 custom-gradient" style={{paddingTop:"80px"}}>
       <div className="container md:h-[100vh]">
         <div className="flex flex-col-reverse md:flex-row items-center pt-5">
           <div className="flex flex-col md:col-span-4 " style={{paddingRight:"50px"}}>

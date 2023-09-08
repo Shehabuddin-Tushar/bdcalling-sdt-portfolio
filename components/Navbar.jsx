@@ -42,7 +42,10 @@ function Navbar() {
   useOutsideAlerter(dropDownRef);
   return (
     <>
-      <div className="bg-secondary">
+      <div
+        className="bg-secondary"
+        style={{ position: "fixed", width: "100vw", zIndex: "2" }}
+      >
         <div className=" mx-0 lg:mx-10  px-6 md:px-0 lg:border-none  h-[65px] lg:h-[75px] lg:py-2">
           <div className="flex items-center justify-between lg:block">
             <div className="flex justify-between items-center">
@@ -63,32 +66,37 @@ function Navbar() {
               </div>
 
               <div className="hidden lg:flex ">
-                <Link
-                  style={{ fontWeight: "bold" }}
-                  href={"/"}
-                  className="text-black  hover:text-white m-4 cursor-pointer hover:scale-125 ease-in duration-300"
-                >
-                  HOME
-                </Link>
-                <div className="text-black  hover:text-white m-4 cursor-pointer hover:scale-125 ease-in duration-300">
-                  <a style={{ fontWeight: "bold" }} href="#services">
+                <div className="text-black  hover:text-[#127caf] m-4 cursor-pointer hover:scale-125 ease-in duration-300">
+                  <Link style={{ fontWeight: "bold", fontSize: 15 }} href={"/"}>
+                    HOME
+                  </Link>
+                </div>
+
+                <div className="text-black  hover:text-[#127caf] m-4 cursor-pointer hover:scale-125 ease-in duration-300">
+                  <a
+                    style={{ fontWeight: "bold", fontSize: 15 }}
+                    href="/#services"
+                  >
                     SERVICES
                   </a>
                 </div>
 
-                <div className="text-black  hover:text-white m-4 cursor-pointer hover:scale-125 ease-in duration-300">
-                  <a style={{ fontWeight: "bold" }} href="#portfolio">
+                <div className="text-black  hover:text-[#127caf] m-4 cursor-pointer hover:scale-125 ease-in duration-300">
+                  <a
+                    style={{ fontWeight: "bold", fontSize: 15 }}
+                    href="/#portfolio"
+                  >
                     PORTFOLIO
                   </a>
                 </div>
-
-                <Link
-                  style={{ fontWeight: "bold" }}
-                  href={"/"}
-                  className="text-black  hover:text-white  m-4 cursor-pointer hover:scale-125 ease-in duration-300"
-                >
-                  ABOUT
-                </Link>
+                <div className="text-black  hover:text-[#127caf] m-4 cursor-pointer hover:scale-125 ease-in duration-300">
+                  <a
+                    style={{ fontWeight: "bold", fontSize: 15 }}
+                    href="/#about"
+                  >
+                    ABOUT
+                  </a>
+                </div>
               </div>
               <Link href={"/contact"}>
                 <div className="hidden lg:block">
@@ -115,7 +123,7 @@ function Navbar() {
               </Link>
             </div>
             <div>
-              <div>
+              <div className="navbar-button">
                 {hamburgerOpen ? (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -189,7 +197,6 @@ function Navbar() {
                 About
               </a>
 
-              
               <Link href={"/contact"}>
                 <div className="flex  justify-center items-center">
                   <button className="bg-primary flex justify-between text-white p-3 text-center w-full mx-auto  rounded-xl lg:w-auto">
