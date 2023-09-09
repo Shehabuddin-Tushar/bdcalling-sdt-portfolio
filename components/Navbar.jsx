@@ -60,9 +60,11 @@ function Navbar() {
                   priority="1"
                 /> */}
 
-                <h1 style={{ fontSize: "25px", fontWeight: "bold" }}>
-                  bdcalling-SDT
+                <Link href="/">
+                   <h1 style={{ fontSize: "25px", fontWeight: "bold" }}>bdcalling-SDT
                 </h1>
+                </Link>
+                  
               </div>
 
               <div className="hidden lg:flex ">

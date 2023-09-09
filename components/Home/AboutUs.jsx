@@ -26,7 +26,7 @@ const teamMembers = [
   },
   {
     id: 5,
-    name: "Farvej",
+    name: "Farvez",
     image: "https://i.postimg.cc/fRHV4PK0/farvej.png",
     position: "Backend-Developer",
   },

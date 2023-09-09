@@ -159,9 +159,9 @@ function PortfolioProjectCard() {
     <div className="custom-gradient">
       <div className="">
         <div className="container">
-          <div className="text-center">
+          <div className="text-center" style={{paddingTop:"80px"}}>
             <h1 className="text-[56px] font-semibold">Portfolio</h1>
-            <p className="text-sm">
+            <p className="text-lg">
               From concept to completion, we're with you every step of the way -
               guiding you towards a successful outcome. Let's make magic happen!
               Or at least a really cool project
