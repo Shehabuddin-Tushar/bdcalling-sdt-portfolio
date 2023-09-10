@@ -127,7 +127,7 @@ function AboutUs() {
           Team members
         </h1>
         <p className="text-sm text-center md:text-left">
-          Bdcalling-SDT Software's diverse professionals have been driving innovation
+          innovexasoft Software's diverse professionals have been driving innovation
           and success since 2011. Discover our story and let our expertise speak
           for itself
         </p>

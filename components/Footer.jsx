@@ -96,7 +96,7 @@ function Footer() {
         <div className="grid grid-cols-12">
           <div className="col-span-12 md:col-span-6 py-10 flex flex-col mx-auto justify-center items-center md:items-start md:justify-start">
             <h1 style={{ fontSize: "30px", fontWeight: "bold" }}>
-              bdCalling-SDT
+              innovexasoft
             </h1>
             <p className="text-center md:text-left mt-3 ">
               Your Partner in Business Empowerment and Digital Innovation

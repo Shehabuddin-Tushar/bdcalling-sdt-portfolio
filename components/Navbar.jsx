@@ -61,7 +61,7 @@ function Navbar() {
                 /> */}
 
                 <Link href="/">
-                   <h1 style={{ fontSize: "25px", fontWeight: "bold" }}>bdcalling-SDT
+                   <h1 style={{ fontSize: "25px", fontWeight: "bold" }}>innovexasoft
                 </h1>
                 </Link>
                   
